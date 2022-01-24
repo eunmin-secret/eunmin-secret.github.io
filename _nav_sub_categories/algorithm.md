@@ -1,11 +1,11 @@
 ---
 layout: tag-list
-type: tag
+type: sub-category
 title: Algorithm
 slug: algorithm
-category: test
+category: dev-blog
 sidebar: true
 order: 1
 description: >
-   Algorithm study / Problem solutions
+   Algorithm Study
 ---

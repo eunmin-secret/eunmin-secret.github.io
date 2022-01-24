@@ -49,8 +49,6 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Dev Blog
-    url:               /blog/
   - title:             Projects
     url:               /projects/
   - title:             About
@@ -150,12 +148,12 @@ defaults:
       seo:
         type:          WebPage
   - scope:
-      type:            featured_categories
+      type:            featured_categories, nav_categories
     values:
       seo:
         type:          WebPage
   - scope:
-      type:            featured_tags
+      type:            featured_tags, nav_tags
     values:
       seo:
         type:          WebPage
@@ -297,6 +295,14 @@ collections:
 
   featured_tags:
     permalink:         /tag-:name/
+    output:            true
+
+  nav_categories:
+    permalink:         /blog/:name/
+    output:            true
+
+  nav_sub_categories:
+    permalink:         /sub-category-:name/
     output:            true
 
   projects:

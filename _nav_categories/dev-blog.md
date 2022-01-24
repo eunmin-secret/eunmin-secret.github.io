@@ -1,8 +1,8 @@
 ---
 layout: list
 type: category
-title: Test
-slug: test
+title: Dev Blog
+slug: dev-blog
 sidebar: true
 order: 2
 description: >

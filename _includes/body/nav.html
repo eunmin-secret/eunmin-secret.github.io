@@ -1,20 +1,20 @@
 <span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}</span>
 <ul>
   {% assign nodes = site.html_pages | concat: site.documents | where: "sidebar", true | sort: "order" %}
-  {% assign tag_nodes = nodes | where: "type", "tag" %}
+  {% assign tag_nodes = nodes | where: "type", "sub-category" %}
   {% for node in nodes %}
     {% unless node.redirect_to %}
-      {% if node.type != "tag" %}
+      {% if node.type != "sub-category" %}
         {% assign subnodes = tag_nodes | where_exp: "item", "item.category == node.slug" %}
         {% assign count = count | plus: 1 %}
         <li>
           {% if subnodes != empty %}
             <input type="checkbox" id="folder-checkbox-{{ count }}" />
           {% endif %}
-          <div class="list-wrapper">
-            <a {% if forloop.first %}id="_navigation"{% endif %} href="{{ node.url | relative_url }}" class="sidebar-nav-item" {% if node.rel %}rel="{{ node.rel }}"{% endif %} >{{ node.title }}</a>
+          <div class="list-wrapper" onclick="javascript:spread({{ count }})">
+            <a {% if forloop.first %}id="_navigation"{% endif %} class="sidebar-nav-item" >{{ node.title }}</a>
             {% if subnodes != empty %}
-              <button class="spread-btn" onclick="javascript:spread({{ count }})">
+              <button class="spread-btn">
                 <label id="spread-icon-{{ count }}" class="material-icons">arrow_right</label>
               </button>
             {% endif %}
