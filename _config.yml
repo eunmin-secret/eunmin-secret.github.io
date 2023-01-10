@@ -297,11 +297,11 @@ collections:
     output:            true
 
   nav_categories:
-    permalink:         /blog/:name/
+    permalink:         /:name/
     output:            true
 
   nav_sub_categories:
-    permalink:         /sub-category-:name/
+    permalink:         /:name-list/
     output:            true
 
   projects:
