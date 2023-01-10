@@ -48,8 +48,6 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Develop
-    url:               /develop/
   - title:             Projects
     url:               /projects/
   - title:             About
@@ -156,11 +154,6 @@ defaults:
         type:          WebPage
   - scope:
       type:            featured_tags
-    values:
-      seo:
-        type:          WebPage
-  - scope:
-      type:            dev_logs
     values:
       seo:
         type:          WebPage
