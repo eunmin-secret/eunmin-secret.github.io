@@ -1,5 +1,5 @@
 ---
-layout: tag-list
+layout: list
 type: sub-category
 title: Kotlin
 slug: kotlin
