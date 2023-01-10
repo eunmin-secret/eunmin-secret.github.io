@@ -289,11 +289,7 @@ hydejack:
 # ----------------------------------------------------------------------------------------
 
 collections:
-  featured_categories:
-    permalink:         /test/:name/
-    output:            true
-
-  devlop:
+  develop_categories:
     permalink:         /develop/:name/
     output:            true
 
