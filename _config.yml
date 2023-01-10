@@ -147,12 +147,17 @@ defaults:
       seo:
         type:          WebPage
   - scope:
-      type:            featured_categories, dev_logs
+      type:            featured_categories
     values:
       seo:
         type:          WebPage
   - scope:
       type:            featured_tags
+    values:
+      seo:
+        type:          WebPage
+  - scope:
+      type:            dev_logs
     values:
       seo:
         type:          WebPage
@@ -289,7 +294,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /blog/:name/
+    permalink:         /test/:name/
     output:            true
 
   dev_logs:
