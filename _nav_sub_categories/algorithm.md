@@ -5,7 +5,7 @@ title: Algorithm
 slug: algorithm
 category: dev-blog
 sidebar: true
-order: 1
+order: 3
 description: >
    Algorithm Study
 ---

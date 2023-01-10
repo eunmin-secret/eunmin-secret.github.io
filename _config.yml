@@ -20,16 +20,15 @@
 lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Eunmin Developer
+title:                 Eunmin
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  나만의 개발 노트
 
 # A shorter description for the sidebar.
-tagline:               Android 개발자
+tagline:               Android Developer
 
 # A list of keywords for your blog
 keywords:              []
@@ -43,7 +42,7 @@ logo:                  /assets/img/logo.jpeg
 author:
   # Used by `jekyll-feed`:
   name:                Eunmin Go
-  email:               eunmin.sincere@gmail.com
+  email:               eunmin.secret@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 

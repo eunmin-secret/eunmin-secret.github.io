@@ -5,7 +5,7 @@ title: Android
 slug: android
 category: dev-blog
 sidebar: true
-order: 3
+order: 1
 description: >
    Android Study
 ---
