@@ -1,5 +1,5 @@
 ---
-layout: grid
+layout: compress
 title: Home
 no_link_title: false 
 no_excerpt: false 
