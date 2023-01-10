@@ -147,12 +147,12 @@ defaults:
       seo:
         type:          WebPage
   - scope:
-      type:            featured_categories, nav_categories
+      type:            featured_categories
     values:
       seo:
         type:          WebPage
   - scope:
-      type:            featured_tags, nav_tags
+      type:            featured_tags
     values:
       seo:
         type:          WebPage
@@ -294,14 +294,6 @@ collections:
 
   featured_tags:
     permalink:         /tag-:name/
-    output:            true
-
-  nav_categories:
-    permalink:         /:name/
-    output:            true
-
-  nav_sub_categories:
-    permalink:         /:name-list/
     output:            true
 
   projects:
