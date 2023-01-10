@@ -7,5 +7,5 @@ category: dev-blog
 sidebar: true
 order: 1
 description: >
-   Android Study
+   Android Study 2
 ---
