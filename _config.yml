@@ -300,7 +300,7 @@ collections:
     permalink:         /test/:name/
     output:            true
 
-  dev_logs:
+  devlop:
     permalink:         /develop/:name/
     output:            true
 

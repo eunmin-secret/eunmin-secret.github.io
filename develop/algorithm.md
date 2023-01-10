@@ -3,7 +3,7 @@ layout: list
 type: sub-category
 title: Algorithm
 slug: algorithm
-category: dev-blog
+category: develop
 sidebar: true
 order: 3
 description: >
