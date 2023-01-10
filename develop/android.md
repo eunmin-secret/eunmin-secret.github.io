@@ -3,7 +3,7 @@ layout: list
 type: sub-category
 title: Android
 slug: android
-category: dev-blog
+category: develop
 sidebar: true
 order: 1
 description: >

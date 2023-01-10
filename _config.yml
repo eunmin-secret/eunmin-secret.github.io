@@ -48,6 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Develop
+    url:               /develop/
   - title:             Projects
     url:               /projects/
   - title:             About
@@ -67,7 +69,7 @@ menu:
 copyright:             © 2023. All rights reserved.
 
 # Format of the permalinks
-permalink:             /dev-log/:categories/:year-:month-:day-:title/
+permalink:             /:categories/:year-:month-:day-:title/
 # permalink:             none
 
 # Pagination configuration (used by the `blog` layout)
@@ -299,7 +301,7 @@ collections:
     output:            true
 
   dev_logs:
-    permalink:         /dev-log/:name/
+    permalink:         /develop/:name/
     output:            true
 
   featured_tags:
